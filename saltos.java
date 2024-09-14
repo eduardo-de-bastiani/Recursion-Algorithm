@@ -11,18 +11,18 @@ public class saltos{
 
     }
 
-    public static void printR(int number){
-        System.out.println(R(number));
+    public static void printR(int n){
+        System.out.println(R(n));
     }
 
     public static void main(String[] args) {
         
-        String n = args[0];
+        String in = args[0];
 
-        int number = Integer.valueOf(n);
+        int n = Integer.valueOf(in);
 
-        R(number);
-        printR(number);
+        R(n);
+        printR(n);
         
     }
 }
